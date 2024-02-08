@@ -35,13 +35,13 @@
 
 <h2>Setup Instructions</h2>
 <ol>
-<li><p><strong>Clone the repository:</strong></p><pre><div class="dark bg-gray-950 rounded-md"><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">git <span class="hljs-built_in">clone</span> Bharat_Intern_Blog-Website.git
+<li><p><strong>Clone the repository:</strong></p><pre><div class="dark bg-gray-950 rounded-md"><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">git <span class="hljs-built_in">clone</span> https://github.com/SumitKundu102022/Bharat_Intern_Blog-Website.git
 <span class="hljs-built_in">cd</span> Blog Web
 </code></div></div></pre></li>
 <li><p><strong>Install dependencies: check package.json file</strong></p><pre><div class="dark bg-gray-950 rounded-md"><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash"><span class="hljs-comment"># Install frontend dependencies</span>
 <span class="hljs-built_in">cd</span> frontend
 npm install vite example1 example2 ...
-
+<br>
 <span class="hljs-comment"># Install backend dependencies</span>
 <span class="hljs-built_in">cd</span> ../backend
 npm install ejs nodemon example1 example2 ...
@@ -54,7 +54,7 @@ SECRET=your_jwt_secret
 <li><p><strong>Start the development server:</strong></p><pre><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash"><span class="hljs-comment"># Start frontend server</span>
 <span class="hljs-built_in">cd</span> frontend
 npm run dev
-
+<br>
 <span class="hljs-comment"># Start backend server</span>
 <span class="hljs-built_in">cd</span> ../backend
 nodemon index.js
